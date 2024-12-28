@@ -12,7 +12,7 @@ const compliments = [
 ];
 
 const ComplimentModal = ({ score, onRestart, onExit }) => {
-  // Get a random compliment from the list
+  
   const randomCompliment = compliments[Math.floor(Math.random() * compliments.length)];
 
   return (
